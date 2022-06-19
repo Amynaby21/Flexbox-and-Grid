@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    display: flex;
+    place-items: center;
+    margin:auto;
+}
+main {
+    display: grid;
+    grid-template-areas: 
+    'a b c'
+    ;
+    margin: auto;
+    border-radius: 10px;
+    width: 50%;
+    place-items: center;
+}
+main div {
+    padding: 2em;
+    text-align: center;
+}
+
+.item-a {
+    background-color: hsl(31, 77%, 52%);
+    grid-area: a;
+}
+.item-b {
+    background-color: hsl(184, 100%, 22%);
+    grid-area: b;
+}
+.item-c {
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+}
